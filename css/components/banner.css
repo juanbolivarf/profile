@@ -1,0 +1,40 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  background: linear-gradient(180deg, white, var(--light));
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 24px 0 8px;
+  font-size: 40px;
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--orange-dark);
+}
+
+.banner p {
+  max-width: 600px;
+  margin: 24px 0 32px;
+  line-height: 1.7;
+  color: var(--gray);
+}
+
+.banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+@media (max-width: 600px) {
+  .banner h1 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,47 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@600;700&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* Components */
+@import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/tags.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+
+:root {
+  --orange: #f28c28;
+  --orange-dark: #d9741a;
+  --dark: #1f2937;
+  --gray: #6b7280;
+  --light: #f7f5f2;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: var(--dark);
+  background: var(--light);
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.section-title {
+  margin: 0 0 24px;
+  font-size: 24px;
+  text-align: center;
+}

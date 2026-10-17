@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 32px 24px;
+  background: var(--dark);
+  color: #d1d5db;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  font-size: 22px;
+  color: white;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: var(--orange);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer .fa-heart {
+  color: var(--orange);
+}
